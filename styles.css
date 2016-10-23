@@ -26,9 +26,10 @@
 	font:bold 14px Arial, sans-serif;
 	line-height: 40px;
 	color: #484848;
+	cursor:pointer;
 	} 
 .keys span:active, .keys span.clear:active,.keys span.eval:active,.keys span.operator:active{box-shadow: none; top:4px;}
-.keys .screen{ width: 230px;box-shadow: inset 0px 4px #61849a;background: rgba(0,0,0,0.2);text-align: right;
+.keys .screen{ width: 230px;box-shadow: inset 0px 4px #61849a;background: rgba(0,0,0,0.2);text-align: right; cursor: default;
 	color:white;padding: 0 10px;box-sizing: border-box;font-size: 20px;text-shadow: 1px 1px 1px #61849a;line-height: 45px;
 	-webkit-user-select: initial;  /* Chrome all / Safari all */
 	-moz-user-select: initial;     /* Firefox all */
